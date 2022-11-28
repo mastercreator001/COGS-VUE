@@ -2,6 +2,7 @@
 import TopSection from '../components/home/TopSection.vue'
 import PictureFeature from '../components/home/PictureFeature.vue'
 import HeadTeachers from '../components/home/HeadTeachers.vue'
+import QuickAccess from '../components/common/QuickAccess.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HeadTeachers from '../components/home/HeadTeachers.vue'
     <PictureFeature />
     <HeadTeachers />
   </content>
+  <QuickAccess />
 </template>
 
 <style scoped>

@@ -29,38 +29,3 @@
     <hr />
   </div>
 </template>
-<style scoped>
-h4 {
-  font-size: 20px;
-  font-weight: 400;
-  margin: 10px 0;
-}
-@media (min-width: 993px) {
-  .cofe-col.l4 {
-    width: 33.33333%;
-  }
-}
-.cofe-col,
-.cofe-half,
-.cofe-third,
-.cofe-twothird,
-.cofe-threequarter,
-.cofe-quarter {
-  float: left;
-  width: 100%;
-}
-.cofe-white,
-.cofe-hover-white:hover {
-  color: #000 !important;
-  background-color: #fff !important;
-}
-.cofe-black,
-.cofe-hover-black:hover {
-  color: #fff !important;
-  background-color: #000 !important;
-}
-.cofe-container,
-.cofe-panel {
-  padding: 0.01em 16px;
-}
-</style>

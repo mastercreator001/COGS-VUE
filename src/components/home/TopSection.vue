@@ -114,30 +114,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-h6 {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-.cofe-green {
-  color: #fff;
-  background-color: #4caf50 !important;
-}
-.cofe-center {
-  text-align: center !important;
-}
-.cofe-xxxlarge {
-    font-size: 48px!important;
-}
-.cofe-container, .cofe-panel {
-  padding: 16px;
-}
-.cofe-tag {
-    background-color: #000;
-    color: #fff;
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
-    text-align: center;
-}
-</style>
