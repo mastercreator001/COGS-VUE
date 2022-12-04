@@ -2,7 +2,14 @@
 import TopSection from '../components/home/TopSection.vue'
 import PictureFeature from '../components/home/PictureFeature.vue'
 import HeadTeachers from '../components/home/HeadTeachers.vue'
+import popularposts from '../components/home/popularposts.vue'
 import QuickAccess from '../components/common/QuickAccess.vue'
+import schooldemolition from '../components/home/school demolition.vue'
+import visitsaway from '../components/home/visitsaway.vue'
+import followme from '../components/common/followme/contact.vue'
+import subscribe from '../components/common/subscribe.vue'
+import emaillink from '../components/common/emaillink.vue'
+import footer from '../components/common/footer.vue'
 </script>
 
 <template>
@@ -13,7 +20,14 @@ import QuickAccess from '../components/common/QuickAccess.vue'
     <PictureFeature />
     <HeadTeachers />
   </content>
+  <popularposts/>
   <QuickAccess />
+<schooldemolition/>
+<visitsaway/>
+<followme/>
+<subscribe/>
+<emaillink/>
+<footer/>
 </template>
 
 <style scoped>
