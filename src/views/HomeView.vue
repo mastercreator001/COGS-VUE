@@ -10,6 +10,7 @@ import followme from '../components/common/followme/contact.vue'
 import subscribe from '../components/common/subscribe.vue'
 import emaillink from '../components/common/emaillink.vue'
 import footer from '../components/common/footer.vue'
+import teachers19712009Vue from '../components/home/teachers1971-2009.vue'
 </script>
 
 <template>
@@ -23,6 +24,7 @@ import footer from '../components/common/footer.vue'
   <popularposts/>
   <QuickAccess />
 <schooldemolition/>
+<teachers-1971-2009/>
 <visitsaway/>
 <followme/>
 <subscribe/>

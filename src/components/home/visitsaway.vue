@@ -28,7 +28,7 @@
             </div>
             <div class="cofe-row cofe-margin-bottom">
               <div class="cofe-col l2 m3">
-                <img src="/w3images/boy.jpg" style="width:90px;">
+                <img src="" style="width:90px;">
               </div>
               <div class="cofe-col l10 m9">
                 <h4><span class="cofe-opacity cofe-medium"></span></h4>
@@ -40,7 +40,7 @@
                 <img src="" style="width:90px;">
               </div>
               <div class="cofe-col l10 m9">
-                
+        
               </div>
             </div>
           </div>
