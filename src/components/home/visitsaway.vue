@@ -5,13 +5,13 @@
           <h5>Out of School, <span class="cofe-opacity">April 7, 1985</span></h5>
         </div>
         <div class="cofe-justify">
-          <img src="./cofe.Images/c of e miss forer 1981 and undated/20200509_093057.jpg" alt="visits away" style="width:100%" class="cofe-padding-16">
+          <img src="/20200509_093057.jpg" alt="visits away" style="width:100%" class="cofe-padding-16">
           <p><strong>Did you miss!</strong> The legendary breaks from school were more of a holiday for the students and a nightmare of the the teachers, imagine looking after 30, 40 ,50 or even 60 kids who aren't yours.</p>
           <p>Fortuntely school trips were unifromed early in the schols history with the 1st years or year ones attending Singleton Open Air Museum. Well actually now called the Weald and Downland Open Air Experience these days, "Check out the link to visit". </p>
       <br>
       <br> 
       <a href="https://www.wealddown.co.uk">
-      <img alt="wealdand down logo" src="./cofe.Images/Weald-Downland-Living-Museum-logo (1).svg" width="100" height="100">
+      <img alt="wealdand down logo" src="/Weald-Downland-Living-Museum-logo (1).svg" class="cofe-wealdanddown">
     </a>
 
           <p class="cofe-left"><button class="cofe-button cofe-white cofe-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>

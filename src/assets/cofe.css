@@ -309,3 +309,9 @@
         .cofe-border-dark-grey,.cofe-hover-border-dark-grey:hover,.cofe-border-dark-gray,.cofe-hover-border-dark-gray:hover{border-color:#616161!important}
         .cofe-border-pale-red,.cofe-hover-border-pale-red:hover{border-color:#ffe7e7!important}.cofe-border-pale-green,.cofe-hover-border-pale-green:hover{border-color:#e7ffe7!important}
         .cofe-border-pale-yellow,.cofe-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.cofe-border-pale-blue,.cofe-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+        .cofe-wealdanddown {
+          height:40px; 
+          width:100px;
+          margin-left:10px;
+        }
