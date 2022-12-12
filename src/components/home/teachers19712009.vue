@@ -4,7 +4,7 @@
     <p><strong>Shirts!</strong> The trend this summer is for a new term and a new year.</p>
     <p>Some schools are places to learn and some purely academic in structure and delivery. Wasnt C Of E Middle different in many ways, speaking to ex students over the years il be saying a big yes.</p>
 
-    <p>The students make a school the teachers make a learning instiution and the building makes it a place to attend. the culmination of all three made Welly Road more of a home. Countless times I have lsitened to stories read posts and been throughly impressed by te love and engagment puplis and teaches have shown for learning and cultivating a loving environment.   </p>
+    <p>The students make a school the teachers make a learning instiution and the building makes it a place to attend. The culmination of all three made Welly Road more of a home. Countless times I have lsitened to stories read posts and been throughly impressed by te love and engagment puplis and teaches have shown for learning and cultivating a loving environment.   </p>
     <p class="cofe-left"><button class="cofe-button cofe-white cofe-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
     <p class="cofe-right"><button class="cofe-button cofe-black" onclick="myFunction('demo2')"><b>Replies &nbsp;</b> <span class="cofe-tag cofe-white">2</span></button></p>
     <p class="cofe-clear"></p>

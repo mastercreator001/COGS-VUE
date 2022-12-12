@@ -2,6 +2,7 @@
 import TopSection from '../components/home/TopSection.vue'
 import PictureFeature from '../components/home/PictureFeature.vue'
 import HeadTeachers from '../components/home/HeadTeachers.vue'
+import PopularPosts from '../components/home/PopularPosts.vue'
 import QuickAccess from '../components/common/QuickAccess.vue'
 import schooldemolition from '../components/home/schooldemolition.vue'
 import visitsaway from '../components/home/visitsaway.vue'
@@ -18,10 +19,10 @@ import teachers1971to2009 from '../components/home/teachers19712009.vue'
   <main>
     <TopSection />
   </main>
-  <content>
+  <div class="content">
     <PictureFeature />
     <HeadTeachers />
-  </content>
+  </div>
   <PopularPosts/>
   <QuickAccess />
 <schooldemolition/>
@@ -34,7 +35,7 @@ import teachers1971to2009 from '../components/home/teachers19712009.vue'
 </template>
 
 <style scoped>
-content {
+.content {
   padding: 8px 16px;
   background-color: #ccc;
   border: 1px solid #ccc;
