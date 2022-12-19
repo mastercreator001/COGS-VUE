@@ -5,9 +5,9 @@
           <h5>Out of School, <span class="cofe-opacity">April 7, 1985</span></h5>
         </div>
         <div class="cofe-justify">
-          <img src="/20200509_093057.jpg" alt="visits away" style="width:100%" class="cofe-padding-16">
+          <img src="/public/visits away/20200509_093057.jpg" alt="visits away" style="width:100%" class="cofe-padding-16">
           <p><strong>Did you miss!</strong> The legendary breaks from school were more of a holiday for the students and a nightmare of the the teachers, imagine looking after 30, 40 ,50 or even 60 kids who aren't yours.</p>
-          <p>Fortuntely school trips were unifromed early in the schols history with the 1st years or year ones attending Singleton Open Air Museum. Well actually now called the Weald and Downland Open Air Experience these days, "Check out the link to visit". </p>
+          <p>Fortuntely school trips were uniformed early in the schools history with the 1st years or year ones attending Singleton Open Air Museum. Well actually now called the Weald and Downland Open Air Experience these days, "Check out the link to visit". </p>
       <br>
       <br> 
       <a href="https://www.wealddown.co.uk">

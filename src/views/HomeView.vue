@@ -4,7 +4,7 @@ import PictureFeature from '../components/home/PictureFeature.vue'
 import HeadTeachers from '../components/home/HeadTeachers.vue'
 import PopularPosts from '../components/home/PopularPosts.vue'
 import QuickAccess from '../components/common/QuickAccess.vue'
-import schooldemolition from '../components/home/schooldemolition.vue'
+import schooldemolition2 from '../components/home/schooldemolition.vue'
 import visitsaway from '../components/home/visitsaway.vue'
 import followme from '../components/common/followme/contact.vue'
 import subscribe from '../components/common/subscribe.vue'
@@ -26,7 +26,7 @@ import FeatureTemplateVue from '../components/home/FeatureTemplate.vue'
   </div>
   <PopularPosts/>
   <QuickAccess />
-<schooldemolition/>
+<schooldemolition2/>
 <teachers1971to2009/>
 <visitsaway/>
 <followme/>
