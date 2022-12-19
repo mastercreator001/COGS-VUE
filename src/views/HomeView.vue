@@ -11,7 +11,7 @@ import subscribe from '../components/common/subscribe.vue'
 import emaillink from '../components/common/emaillink.vue'
 import footer from '../components/common/footer.vue'
 import teachers1971to2009 from '../components/home/teachers19712009.vue'
-
+import FeatureTemplateVue from '../components/home/FeatureTemplate.vue'
 
 </script>
 
@@ -20,6 +20,7 @@ import teachers1971to2009 from '../components/home/teachers19712009.vue'
     <TopSection />
   </main>
   <div class="content">
+    <feature-template/>
     <PictureFeature />
     <HeadTeachers />
   </div>
