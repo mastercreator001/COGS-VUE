@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div >
     <hr />
     <div class="cofe-white">
-      <div class="cofe-container cofe-padding cofe-black">
+      <div class="cofe-container cofe-padding cofe-black" >
         <h4>Quick links</h4>
       </div>
       <div class="cofe-container cofe-white">

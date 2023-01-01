@@ -31,12 +31,12 @@
 </template>
 <style scoped>
 .paragraphText {
-  margin-bottom: 20px; padding-bottom: 10%; padding-top: 10%;
+  margin-bottom: 20px; padding-bottom: 3%; padding-top: 3%;
 }
 .titleText {
-  width: 78px;
+  width: 178px;
   display: inline-block;
-  margin: 30px 0 0 30px;
+  margin: 20px 0 0 20px;
   font-weight: bold;
   
 }
