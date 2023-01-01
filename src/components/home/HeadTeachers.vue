@@ -8,14 +8,15 @@
       />
       <h4 style="display: inline-block">Head teachers</h4>
       <div class="cofe-container cofe-black">
+        <p></p>
         <p class="paragraphText">
           We were so lucky to to have the good fortune to have the head teachers
-          we did. Mr Knight started with inovation and courage from the schools
-          opening, Mr Harrision took the torch after Mr Knights retirement.
+          we did. Mr Knight started with innovation and courage from the schools
+          opening as it was a relatively new concept for a church school, Mr Harrision took the torch after Mr Knights retirement allowing for a area of time I can personally relate to having had my tenor from 1986-1990.
         </p>
         <p class="paragraphText">
           Mr Harrision who I had the good fortune to be taught by had such a
-          gentle nature he was easily respected and by staff and students.
+          gentle nature he was easily respected by staff and students. He always seemed to come across as having a passion for the school and would always go above and beyond to be approachable and friendly. 
         </p>
         <p class="paragraphText">
           And finally Mr Bloomfield who saw the school into it's twilight years.
@@ -30,16 +31,18 @@
 </template>
 <style scoped>
 .paragraphText {
-  margin-bottom: 20px;
+  margin-bottom: 20px; padding-bottom: 10%; padding-top: 10%;
 }
 .titleText {
-  width: 178px;
+  width: 78px;
   display: inline-block;
-  margin: 10px 0 0 30px;
+  margin: 30px 0 0 30px;
   font-weight: bold;
+  
 }
 .headImage {
-  margin-right: 20px;
-  width: 72px;
+  margin-left: 20px;
+  width: 172px;
+  padding-bottom: 5%; padding-top:5%; padding-left: 5%;
 }
 </style>

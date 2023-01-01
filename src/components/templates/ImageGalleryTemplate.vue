@@ -32,8 +32,8 @@ export default {
 }
 </script>
 <style scoped>
-.imageTitle {}
-.imageText {}
+.imageTitle {font-weight: bold; padding-block: 10px; text-align: center;}
+.imageText {font-weight: b; text-align: center;}
 .imageContainer {
   margin: 5px;
   border: 1px solid #ccc;
@@ -45,7 +45,7 @@ export default {
   border: 1px solid #777;
 }
 .image {
-  width: 100%;
+  width: 100%; 
   height: auto;
 }
 
