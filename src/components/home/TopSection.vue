@@ -1,7 +1,7 @@
 <template>
   <header class="cofe-container cofe-center cofe-green">
     <img
-      class="cofe logo"
+      class="cofe-logo"
       src="/20200218_195526.jpg"
       alt="school logo"
       width="100"
@@ -12,49 +12,49 @@
 
     <div class="slideshow-container">
       <div class="mySlides fade" style="display: none">
-        <img src="/slides/20200509_100219.jpg" style="width: 50%" />
+        <img src="/slides/20200509_100219.jpg" class="slideImage" />
         <div class="numbertext">1 / 8</div>
         <div class="text"></div>
       </div>
 
       <div class="mySlides fade" style="display: none">
-        <img src="/slides/20200509_095853.jpg" style="width: 50%" />
+        <img src="/slides/20200509_095853.jpg" class="slideImage" />
         <div class="numbertext">2 / 8</div>
         <div class="text"></div>
       </div>
 
       <div class="mySlides fade" style="display: none">
-        <img src="/slides/20200509_095821.jpg" style="width: 50%" />
+        <img src="/slides/20200509_095821.jpg" class="slideImage" />
         <div class="numbertext">3 / 8</div>
         <div class="text"></div>
       </div>
 
       <div class="mySlides fade" style="display: none">
-        <img src="/slides/Lumii_20210523_080316194.jpg" style="width: 50%" />
+        <img src="/slides/Lumii_20210523_080316194.jpg" class="slideImage" />
         <div class="numbertext">4 /8</div>
         <div class="text"></div>
       </div>
 
       <div class="mySlides fade" style="display: block">
-        <img src="/slides/Lumii_20210523_083337279.jpg" style="width: 50%" />
+        <img src="/slides/Lumii_20210523_083337279.jpg" class="slideImage" />
         <div class="numbertext">5 / 8</div>
         <div class="text"></div>
       </div>
 
       <div class="mySlides fade" style="display: none">
-        <img src="/slides/Lumii_20210523_085156479.jpg" style="width: 50%" />
+        <img src="/slides/Lumii_20210523_085156479.jpg" class="slideImage" />
         <div class="numbertext">6 / 8</div>
         <div class="text"></div>
       </div>
 
       <div class="mySlides fade" style="display: none">
-        <img src="/slides/Lumii_20210523_085924491.jpg" style="width: 50%" />
+        <img src="/slides/Lumii_20210523_085924491.jpg" class="slideImage" />
         <div class="numbertext">7 / 8</div>
         <div class="text"></div>
       </div>
 
       <div class="mySlides fade" style="display: none">
-        <img src="/slides/Lumii_20210523_083139319.jpg" style="width: 50%" />
+        <img src="/slides/Lumii_20210523_083139319.jpg" class="slideImage" />
         <div class="numbertext">8/ 8</div>
         <div class="text"></div>
       </div>
@@ -114,3 +114,9 @@ export default {
   },
 };
 </script>
+<style scoped>
+.slideImage {
+  width: 640px;
+  height: 380px;
+}
+</style>

@@ -31,31 +31,33 @@ export default {
   overflow: hidden;
 }
 .cofe-bar .cofe-bar-item {
-    padding: 2px 0 2px 6px;
-    float: left;
-    width: auto;
-    border: none;
-    display: block;
-    outline: 0;
+  padding: 2px 0 2px 6px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
 }
-.cofe-btn, .cofe-button {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.cofe-btn,
+.cofe-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.cofe-btn, .cofe-button {
-    border: none;
-    display: inline-block;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
+.cofe-btn,
+.cofe-button {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
 }
 </style>

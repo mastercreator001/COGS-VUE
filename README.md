@@ -1,6 +1,8 @@
 # COGS-Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+## Written by Richard McMaster
+
+This project was created as a demonstration of changing a static site into a vue.js componentised site, with the content being driven by JSON data.
 
 ## Recommended IDE Setup
 
