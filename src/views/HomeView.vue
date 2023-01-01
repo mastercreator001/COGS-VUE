@@ -12,7 +12,7 @@ import subscribe from "../components/common/subscribe.vue";
 import emaillink from "../components/common/emaillink.vue";
 import siteFooter from "../components/common/siteFooter.vue";
 import teachers from "../components/home/teachers.vue";
-
+import secondsVue from "../components/home/seconds.vue";
 </script>
 
 <template>
@@ -24,6 +24,7 @@ import teachers from "../components/home/teachers.vue";
     <div class="side">
       <HeadTeachers />
       <PopularPosts />
+      <quickMemoriesgallery />
     </div>
     <teachers />
     <visitsaway />

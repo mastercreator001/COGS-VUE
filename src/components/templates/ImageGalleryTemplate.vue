@@ -37,8 +37,9 @@ export default {
 .imageContainer {
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
-  width: 48%;
+  float: middle;
+  width: 40%;
+  padding: 5%;
 }
 .imageContainer {
   border: 1px solid #777;
@@ -47,4 +48,5 @@ export default {
   width: 100%;
   height: auto;
 }
+
 </style>

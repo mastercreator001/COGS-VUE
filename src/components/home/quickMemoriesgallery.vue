@@ -4,7 +4,7 @@
         <h4>Quick Memories Gallery</h4>
       </div>
       <ul class="cofe-ul cofe-hoverable cofe-white">
-        <PopularPostItem
+        <quickMemoriesgallery
           v-for="post in posts"
           :key="post.id"
           :title="post.title"
@@ -16,7 +16,7 @@
     </div>
   </template>
   <script>
-  import quickMemoriesgallery from "../templates/quickMemoriesgallery.vue";
+  import quickMemoriesgallery from "../home/quickMemoriesgallery.vue";
   export default {
     components: {
         quickMemoriesgallery
@@ -27,7 +27,7 @@
           {
             id: 1,
             title: "Home",
-            text: "A Familliar view",
+            text: "A Familiar view",
             imgsrc: "/quickMemoriesgallery/20200228_205500.jpg",
             imgalt: "view of the school",
           },

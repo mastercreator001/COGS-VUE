@@ -1,7 +1,7 @@
 <template>
   <div class="demolitionContainer">
     <div class="cofe-padding cofe-black">
-      <h4>Popular Posts</h4>
+      <h4> The School's Demolition</h4>
     </div>
     <div class="galleryContainer">
       <ImageGalleryTemplate
@@ -65,5 +65,5 @@ export default {
 </script>
 <style scoped>
 .demolitionContainer {background-color: white; display: inline-block;}
-.galleryContainer {display: inline-block;}
+.galleryContainer {display: inline-flex}
 </style>
