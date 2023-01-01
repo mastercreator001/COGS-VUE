@@ -1,5 +1,5 @@
 <template>
-    <div class="cofe-container">
+   <div class="cofe-container">
       <div class="cofe-padding cofe-black">
         <h4>Quick Memories Gallery</h4>
       </div>
@@ -16,7 +16,7 @@
     </div>
   </template>
   <script>
-  import quickMemoriesgallery from "../home/quickMemoriesgallery.vue";
+  import quickMemoriesgallery from "../templates/PopularPostItem.vue";
   export default {
     components: {
         quickMemoriesgallery
