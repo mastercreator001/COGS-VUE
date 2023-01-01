@@ -24,7 +24,7 @@
     
   As sad as it was to see the school fall it was comforting to capture on camera the fall of an old friend. The school was an innovation of the times and incorprated the latest building tech into it's construction including the absestos that frequented many of the buildings of the time.
 
-   Eventually this innovation befall the school as the product and it's insultion properties proved hazadous to worker updating the building. <p></p>
+   Eventually this innovation befall the school as the product and it's insultion properties proved hazadous to workers updating or renovating the building. <p></p>
   
   A sad reflection on it's innovation was it's down fall as latter implemented work controls around asbestos made amendments and improvements expensive. 
   </div>
@@ -41,7 +41,7 @@ export default {
         {
           id: 1,
           title: "Deep Into The School's Heart",
-          text: "The school was cutting edge for it's time but after the school had aged and the buiding processs weere futher developed materials previously found to be safe wern't as safe as first thougt. Many schools built in the 50's 60's and 70s used asbestos, a now very damaging sustance making alterations to the school expensive.",
+          text: "The school was cutting edge for it's time but after the school had aged and the building processs we're further developed materials previously found to be safe wern't as safe as first thought. Many schools built in the 50's 60's and 70s used asbestos, a now very damaging sustance making alterations to the school expensive.",
           imageUrl: "/schooldemolition/received_213994836394223.jpeg",
           imageAlt: " 1H gone"
         },
@@ -72,6 +72,6 @@ export default {
 }
 </script>
 <style scoped>
-.demolitionContainer {background-color: white; display: inline-block; padding-bottom: 50px; font-weight: bold;}
-.galleryContainer {display: inline-flex; padding-bottom: 50px; font-weight: bold; text-underline-offset: 10px;}
+.demolitionContainer {background-color: white; display: inline-block; padding-top: 50px; padding-bottom: 50px;  font-weight: normal;}
+.galleryContainer {display: inline-flex; padding-top: 50px; padding-bottom: 50px;  font-weight: bold; text-underline-offset: 10px;}
 </style>

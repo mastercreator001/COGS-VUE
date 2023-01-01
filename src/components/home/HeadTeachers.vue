@@ -31,14 +31,12 @@
 </template>
 <style scoped>
 .paragraphText {
-  margin-bottom: 20px; padding-bottom: 3%; padding-top: 3%;
+  margin-bottom: 20px; padding-bottom: 3%; padding-top: 3%; font-size: large;
 }
 .titleText {
   width: 178px;
   display: inline-block;
   margin: 20px 0 0 20px;
-  font-weight: bold;
-  
 }
 .headImage {
   margin-left: 20px;

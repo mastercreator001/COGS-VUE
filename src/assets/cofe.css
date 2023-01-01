@@ -99,9 +99,9 @@
         ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
         /* End extract */
         html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
-        h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+        h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:30px}h5{font-size:18px}h6{font-size:16px}
         .cofe-serif{font-family:serif}.cofe-sans-serif{font-family:sans-serif}.cofe-cursive{font-family:cursive}.cofe-monospace{font-family:monospace}
-        h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.cofe-wide{letter-spacing:4px}
+        h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:bold;margin:10px 0}.cofe-wide{letter-spacing:4px}
         hr{border:0;border-top:1px solid rgb(240, 112, 112);margin:20px 0}
         .cofe-logo {margin-top: 10px;}
         .cofe-image{max-width:100%;height:auto}img{vertical-align:middle}a{outline: #000 100px;}
