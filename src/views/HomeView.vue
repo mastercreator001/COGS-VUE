@@ -3,7 +3,7 @@ import TopSection from "../components/home/TopSection.vue";
 import PictureFeature from "../components/home/PictureFeature.vue";
 import HeadTeachers from "../components/home/HeadTeachers.vue";
 import PopularPosts from "../components/home/PopularPosts.vue";
-import quickMemoriesgalleryVue from "../components/home/quickMemoriesgallery.vue";
+import quickMemoriesgallery from "../components/home/quickMemoriesgallery.vue";
 import QuickAccess from "../components/common/QuickAccess.vue";
 import schooldemolition2 from "../components/home/schooldemolition.vue";
 import visitsaway from "../components/home/visitsaway.vue";

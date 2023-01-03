@@ -26,31 +26,64 @@
         posts: [
           {
             id: 1,
-            title: "Home",
-            text: "A Familiar view",
-            imgsrc: "/quickMemoriesgallery/20200228_205500.jpg",
-            imgalt: "view of the school",
+            title: "Anyone Remember",
+            text: " Name The Dog, and the owner ?",
+            imgsrc: "/quickMemoriesgallery/Lumii_20210523_081022127.jpg",
+            imgalt: "2 students with dog",
           },
           {
             id: 2,
             title: "Trips out",
             text: "Trips with students",
-            imgsrc: "/quickMemoriesgallery/20200504_121909.jpg",
+            imgsrc: "/public/quickMemoriesgallery/Lumii_20210523_081701844.jpg",
             imgalt: "school trip out",
           },
           {
             id: 3,
             title: "Pictures",
             text: "Miss Forers class",
-            imgsrc: "/quickMemoriesgallery/20200415_200810.jpg",
+            imgsrc: "dist/quickMemoriesgallery/Lumii_20210523_082432053.jpg",
             imgalt: "take2 cardwell pictures of students",
           },
+
           {
-            id: 4,
-            title: "Teachers",
+            id: 5,
+            title: "Totland Anyone ?",
             text: "Students meet which teacher ?",
-            imgsrc: "/quickMemoriesgalllery/Lumii_20210523_085700252.jpg",
+            imgsrc: "/public/quickMemoriesgallery/20200509_092615.jpg",
             imgalt: "Image",
+          },
+            
+            {  
+              id: 6,
+            title: "School Outing Anyone",
+            text: "A Well Prepared Bunch",
+            imgsrc: "/public/quickMemoriesgallery/20200509_092922.jpg",
+            imgalt: "school trip out,but where",
+          },
+
+          {  
+              id: 7,
+            title: "A Pond At School ?",
+            text: "Who ever new we had a pond at school, plenty I'm sure",
+            imgsrc: "/public/quickMemoriesgallery/20200509_092251.jpg",
+            imgalt: "School pond",
+          },
+
+          {  
+              id: 8,
+            title: "The team to beat",
+            text: "Stunning colour fablous play",
+            imgsrc: "/public/quickMemoriesgallery/20200509_093242.jpg",
+            imgalt: "Image",
+          },
+
+          {  
+              id: 9,
+            title: "The three muskateers ?",
+            text: "The Mystery remains, Who? Where? and When?",
+            imgsrc: "/public/quickMemoriesgallery/20200509_093140.jpg",
+            imgalt: "three students",
           },
         ],
       };
