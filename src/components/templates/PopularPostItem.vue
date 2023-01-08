@@ -1,5 +1,5 @@
 <template>
-  <li class="cofe-padding-16">
+  <li class="cofe-padding-12">
     <img
       :src="imgsrc"
       :title="imgalt"

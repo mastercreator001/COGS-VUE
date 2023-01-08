@@ -13,6 +13,7 @@ import emaillink from "../components/common/emaillink.vue";
 import siteFooter from "../components/common/siteFooter.vue";
 import teachers from "../components/home/teachers.vue";
 import secondsVue from "../components/home/seconds.vue";
+import cookingClass from "../components/home/cookingClass.vue";
 </script>
 
 <template>
@@ -23,9 +24,10 @@ import secondsVue from "../components/home/seconds.vue";
     <PictureFeature />
     <div class="side">
       <HeadTeachers />
-      <PopularPosts />
-      <quickMemoriesgallery />
+      <PopularPosts />    
     </div>
+    <quickMemoriesgallery />
+    <cookingClass />
     <teachers />
     <visitsaway />
   </div>
@@ -58,5 +60,10 @@ import secondsVue from "../components/home/seconds.vue";
   background-color: #ccc;
   border: 1px solid #ccc;
   padding: 0 20px;
+}
+@media only screen and (max-width: 992px) {
+  .side {
+    width: 100%;
+  }
 }
 </style>

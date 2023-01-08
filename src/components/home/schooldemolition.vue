@@ -73,5 +73,11 @@ export default {
 </script>
 <style scoped>
 .demolitionContainer {background-color: white; display: inline-block; padding-top: 50px; padding-bottom: 50px;  font-weight: normal;}
-.galleryContainer {display: inline-flex; padding-top: 50px; padding-bottom: 50px;  font-weight: bold; text-underline-offset: 10px;}
+.galleryContainer {display: inline-flex; flex-wrap: wrap; flex: 22%; padding: 50px 0;  font-weight: bold; text-underline-offset: 10px;}
+@media only screen and (max-width: 600px) {
+  .galleryContainer {
+    flex: 100%;
+    background-color: aquamarine;
+  }
+}
 </style>

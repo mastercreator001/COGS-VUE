@@ -39,7 +39,7 @@ export default {
   border: 1px solid #ccc;
   float: middle;
   width: 40%;
-  padding: 5%;
+  padding: 20px;
 }
 .imageContainer {
   border: 1px solid #777;

@@ -6,7 +6,7 @@
         alt="mr harrison"
         class="headImage cofe-color"
       />
-      <h4 style="display: inline-block">Head teachers</h4>
+      <h4 style="text-align: center;">Head teachers</h4>
       <div class="cofe-container cofe-black">
         <p></p>
         <p class="paragraphText">
@@ -40,7 +40,7 @@
 }
 .headImage {
   margin-left: 20px;
-  width: 172px;
+  width: 90%;
   padding-bottom: 5%; padding-top:5%; padding-left: 5%;
 }
 </style>

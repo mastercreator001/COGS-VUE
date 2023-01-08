@@ -1,4 +1,5 @@
 <template>
+  <hr />
    <div class="cofe-container">
       <div class="cofe-padding cofe-black">
         <h4>Quick Memories Gallery</h4>
@@ -35,7 +36,7 @@
             id: 2,
             title: "Trips out",
             text: "Trips with students",
-            imgsrc: "/public/quickMemoriesgallery/Lumii_20210523_081701844.jpg",
+            imgsrc: "/quickMemoriesgallery/Lumii_20210523_081701844.jpg",
             imgalt: "school trip out",
           },
           {
@@ -50,7 +51,7 @@
             id: 5,
             title: "Totland Anyone ?",
             text: "Students meet which teacher ?",
-            imgsrc: "/public/quickMemoriesgallery/20200509_092615.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_092615.jpg",
             imgalt: "Image",
           },
             
@@ -58,7 +59,7 @@
               id: 6,
             title: "School Outing Anyone",
             text: "A Well Prepared Bunch",
-            imgsrc: "/public/quickMemoriesgallery/20200509_092922.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_092922.jpg",
             imgalt: "school trip out,but where",
           },
 
@@ -66,7 +67,7 @@
               id: 7,
             title: "A Pond At School ?",
             text: "Who ever new we had a pond at school, plenty I'm sure",
-            imgsrc: "/public/quickMemoriesgallery/20200509_092251.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_092251.jpg",
             imgalt: "School pond",
           },
 
@@ -74,7 +75,7 @@
               id: 8,
             title: "The team to beat",
             text: "Stunning colour fablous play",
-            imgsrc: "/public/quickMemoriesgallery/20200509_093242.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_093242.jpg",
             imgalt: "Image",
           },
 
