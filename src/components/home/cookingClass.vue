@@ -66,7 +66,7 @@
   .headImage {
     margin: 40px 0 0 20px;
     padding: 0 5% 5% 5%;
-    width: 90%;
+    width: 65%;
   }
 
   .mainImage {

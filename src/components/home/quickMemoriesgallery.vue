@@ -51,7 +51,7 @@
             id: 5,
             title: "Totland Anyone ?",
             text: "Students meet which teacher ?",
-            imgsrc: "/quickMemoriesgallery/20200509_092615.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_092615m.jpg",
             imgalt: "Image",
           },
             
@@ -59,7 +59,7 @@
               id: 6,
             title: "School Outing Anyone",
             text: "A Well Prepared Bunch",
-            imgsrc: "/quickMemoriesgallery/20200509_092922.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_092922m.jpg",
             imgalt: "school trip out,but where",
           },
 
@@ -67,7 +67,7 @@
               id: 7,
             title: "A Pond At School ?",
             text: "Who ever new we had a pond at school, plenty I'm sure",
-            imgsrc: "/quickMemoriesgallery/20200509_092251.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_092251m.jpg",
             imgalt: "School pond",
           },
 
@@ -75,7 +75,7 @@
               id: 8,
             title: "The team to beat",
             text: "Stunning colour fablous play",
-            imgsrc: "/quickMemoriesgallery/20200509_093242.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_093242m.jpg",
             imgalt: "Image",
           },
 
@@ -83,7 +83,7 @@
               id: 9,
             title: "The three muskateers ?",
             text: "The Mystery remains, Who? Where? and When?",
-            imgsrc: "/public/quickMemoriesgallery/20200509_093140.jpg",
+            imgsrc: "/quickMemoriesgallery/20200509_093140m.jpg",
             imgalt: "three students",
           },
         ],
