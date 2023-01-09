@@ -15,18 +15,20 @@
         />
     </div>
     <br/>
-    <div>
+    <div><hr>
     <div class="cofe-padding cofe-black" data-v-ea3345d8=""><h4 data-v-ea3345d8=""> School's Out Forever</h4>
     </div>
    
   </div>
-  I was fortunate enough or should I say unfortunate enough to have some time off in October 2019 when I visited the school daily during the demolition phase. To be perfectly honest I hadn't been in touch with the school as far as I was aware it was still being used as part of the Christ The King Campus until the subsequently I read about the arson perpetrated by persons unknown.
+  <div><p></p>
+   I was fortunate enough or should I say unfortunate enough to have some time off in October 2019 when I visited the school daily during the demolition phase. To be perfectly honest I hadn't been in touch with the school as far as I was aware it was still being used as part of the Christ The King Campus until the subsequently I read about the arson perpetrated by persons unknown.
     
   As sad as it was to see the school fall it was comforting to capture on camera the fall of an old friend. The school was an innovation of the times and incorprated the latest building tech into it's construction including the absestos that frequented many of the buildings of the time.
 
-   Eventually this innovation befall the school as the product and it's insultion properties proved hazadous to workers updating or renovating the building. <p></p>
+   Eventually this innovation befall the school as the product and it's insultion properties proved hazadous to workers updating or renovating the building. <p></p><p></p>
   
   A sad reflection on it's innovation was it's down fall as latter implemented work controls around asbestos made amendments and improvements expensive. 
+  </div>
   </div>
 </template>
 <script>
@@ -72,7 +74,7 @@ export default {
 }
 </script>
 <style scoped>
-.demolitionContainer {background-color: white; display: inline-block; padding-top: 50px; padding-bottom: 50px;  font-weight: normal;}
+.demolitionContainer {background-color: white; display: inline-block; padding-top: 50px; padding-bottom: 50px;  font-weight: normal; margin: 9px 9px 9px 9px;}
 .galleryContainer {display: inline-flex; flex-wrap: wrap; flex: 22%; padding: 50px 0;  font-weight: bold; text-underline-offset: 10px;}
 @media only screen and (max-width: 600px) {
   .galleryContainer {

@@ -31,7 +31,7 @@
 </template>
 <style scoped>
 .paragraphText {
-  margin-bottom: 20px; padding-bottom: 3%; padding-top: 3%; font-size: large;
+  margin-bottom: 20px; padding-bottom: 3%; padding-top: 10%; font-size: large;
 }
 .titleText {
   width: 178px;
