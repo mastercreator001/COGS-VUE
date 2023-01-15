@@ -11,6 +11,9 @@
           <span class="cofe-tag cofe-light-grey cofe-small cofe-margin-bottom">
             Facebook
           </span>
+          <span class="cofe-tag cofe-light-grey cofe-small cofe-margin-bottom">
+            <router-link to="/Posts">Posts</router-link>
+          </span>
           <span class="cofe-tag cofe-light-grey cofe-small cofe-margin-bottom"
             >Trips</span
           >

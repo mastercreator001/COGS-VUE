@@ -1,7 +1,7 @@
 <template>
   <div class="cofe-container">
     <div class="cofe-padding cofe-black">
-      <h4>Popular Posts</h4>
+      <h4>Posts</h4>
     </div>
     <ul class="cofe-ul cofe-hoverable cofe-white">
       <PopularPostItem
@@ -16,8 +16,9 @@
     </ul>
   </div>
 </template>
+  
 <script>
-import PopularPostItem from "../templates/PopularPostItem.vue";
+import PopularPostItem from "../components/templates/PopularPostItem.vue";
 import { mapGetters } from "vuex";
 export default {
   components: {
@@ -38,3 +39,14 @@ export default {
   }
 };
 </script>
+
+<style>
+  @media (min-width: 1024px) {
+    .posts {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+  }
+  </style>
+  

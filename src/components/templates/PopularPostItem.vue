@@ -1,5 +1,5 @@
 <template>
-  <li class="cofe-padding-12">
+  <li class="cofe-padding-12" v-on:click="itemClicked">
     <img
       :src="imgsrc"
       :title="imgalt"
@@ -15,6 +15,7 @@
   </li>
 </template>
 <script>
+import { RouterView, useRoute } from 'vue-router';
 export default {
   props: {
     id: {
@@ -38,5 +39,11 @@ export default {
       type: String,
     },
   },
+  methods: {
+    itemClicked () {
+      console.log(this.title)
+      this.$router.push('/Posts/' + this.id)
+    }
+  }
 };
 </script>
