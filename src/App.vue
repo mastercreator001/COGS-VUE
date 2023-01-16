@@ -1,19 +1,9 @@
 <script setup>
-import { RouterView } from 'vue-router'
-import Banner from './components/common/Banner.vue'
+import Banner from "./components/common/Banner.vue";
 </script>
 
 <template>
   <Banner />
-  <!--<header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
--->
   <RouterView />
 </template>
 

@@ -183,7 +183,7 @@
         .cofe-circle{border-radius:50%}
         .cofe-round-small{border-radius:2px}.cofe-round,.cofe-round-medium{border-radius:4px}.cofe-round-large{border-radius:8px}.cofe-round-xlarge{border-radius:16px}.cofe-round-xxlarge{border-radius:32px}
         .cofe-row-padding,.cofe-row-padding>.cofe-half,.cofe-row-padding>.cofe-third,.cofe-row-padding>.cofe-twothird,.cofe-row-padding>.cofe-threequarter,.cofe-row-padding>.cofe-quarter,.cofe-row-padding>.cofe-col{padding:0 8px}
-        .cofe-container,.cofe-panel{padding:0.01em 16px}.cofe-panel{margin-top:16px;margin-bottom:6px}
+        .cofe-container,.cofe-panel{padding:0.01em 16px;}.cofe-panel{margin-top:16px;margin-bottom:6px}
         .cofe-code,.cofe-codespan{font-family:Consolas,"courier new";font-size:16px}
         .cofe-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
         .cofe-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}

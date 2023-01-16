@@ -18,23 +18,17 @@
 </template>
 <script>
 import PopularPostItem from "../templates/PopularPostItem.vue";
-import { mapGetters } from "vuex";
 export default {
   components: {
-    PopularPostItem
+    PopularPostItem,
   },
   data() {
     return {
-      posts: []
+      posts: [],
     };
   },
-  computed: {
-    ...mapGetters([
-      'getAllPosts'
-    ])
-  },
   mounted() {
-    this.posts = this.getAllPosts();
-  }
+    this.posts = this.$store.state["postsStore"].posts;
+  },
 };
 </script>

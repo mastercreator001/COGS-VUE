@@ -1,5 +1,5 @@
 <template>
-  <div class="cofe-container">
+  <div class="cofe-container" style="margin-top: 10px">
     <div class="cofe-padding cofe-black">
       <h4>Posts</h4>
     </div>
@@ -16,37 +16,28 @@
     </ul>
   </div>
 </template>
-  
 <script>
 import PopularPostItem from "../components/templates/PopularPostItem.vue";
-import { mapGetters } from "vuex";
 export default {
   components: {
-    PopularPostItem
+    PopularPostItem,
   },
   data() {
     return {
-      posts: []
+      posts: [],
     };
   },
-  computed: {
-    ...mapGetters([
-      'getAllPosts'
-    ])
-  },
   mounted() {
-    this.posts = this.getAllPosts();
-  }
+    this.posts = this.$store.state["postsStore"].posts;
+  },
 };
 </script>
-
 <style>
-  @media (min-width: 1024px) {
-    .posts {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-    }
+@media (min-width: 1024px) {
+  .posts {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
   }
-  </style>
-  
+}
+</style>
