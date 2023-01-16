@@ -16,7 +16,27 @@
       </ul>
     </div>
   </template>
-  <script>
+<script>
+import quickMemoriesgallery from "../templates/PopularPostItem.vue";
+export default {
+  components: {
+    quickMemoriesgalleryStore,
+  },
+  data() {
+    return {
+      posts: [],
+    };
+  },
+  mounted() {
+    this.posts = this.$store.state["quickMemoriesgalleryStore"].posts;
+  },
+};
+</script>
+
+
+
+old script to be deleted
+<script>
   import quickMemoriesgallery from "../templates/PopularPostItem.vue";
   export default {
     components: {
