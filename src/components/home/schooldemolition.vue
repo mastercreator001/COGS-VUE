@@ -32,7 +32,7 @@
   </div>
 </template>
 <script>
-import ImageGalleryTemplate from "../templates/ImageGalleryTemplate.vue";
+import ImageGalleryTemplate from "../templates/quickmemoriesGalleryTemplate.vue";
 export default {
   components: {
     ImageGalleryTemplate

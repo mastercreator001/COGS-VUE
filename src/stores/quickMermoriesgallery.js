@@ -1,42 +1,20 @@
-<template>
-  <hr />
-   <div class="cofe-container">
-      <div class="cofe-padding cofe-black">
-        <h4>Quick Memories Gallery</h4>
-      </div>
-      <ul class="cofe-ul cofe-hoverable cofe-white">
-        <quickMemoriesgallery
-          v-for="post in posts"
-          :key="post.id"
-          :title="post.title"
-          :text="post.text"
-          :imgsrc="post.imgsrc"
-          :imgalt="post.imgalt"
-        />
-      </ul>
-    </div>
-  </template>
-  <script>
-  import quickMemoriesgallery from "../templates/PopularPostItem.vue";
-  export default {
-    components: {
-        quickMemoriesgallery
-    },
-    data() {
-      return {
-        posts: [
-          {
-            id: 1,
+import { defineStore } from 'pinia'
+
+export const usequickMemoriesgalleryStore = defineStore('quickMemoriesgallery', () => {
+  state: {
+    posts: [
+      {
+        id: 1,
             title: "Anyone Remember",
             text: " Name The Dog, and the owner ?",
-            imgsrc: "./public/quickMemoriesgallery/Lumii_20210523_081022127.jpg",
+            imgsrc: "/quickMemoriesgallery/Lumii_20210523_081022127.jpg",
             imgalt: "2 students with dog",
           },
           {
             id: 2,
             title: "Trips out",
             text: "Trips with students",
-            imgsrc: "/public/quickMemoriesgallery/Lumii_20210523_081701844.jpg",
+            imgsrc: "../quickMemoriesgallery/Lumii_20210523_081701844.jpg",
             imgalt: "school trip out",
           },
           {
@@ -89,6 +67,13 @@
         ],
       };
     },
-  };
-  </script>
-  
+    
+  getters: {
+    getquickMemoriesgalleryById: (state) => (id) => {
+      return state.quickMemoriesgallery.find(quickMemoriesgallery => quickMemoriesgallery.id === id)
+    }
+    getAllquickMemoriesgallery: (state) => {
+      return state.quickMemoriesgallery
+    }
+  }
+})

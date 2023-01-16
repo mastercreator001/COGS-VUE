@@ -116,6 +116,6 @@ export default {
 </script>
 <style scoped>
 .slideImage {
-  width: 60%;
+  width: 70%;
 }
 </style>
