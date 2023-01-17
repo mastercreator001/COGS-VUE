@@ -1,9 +1,9 @@
 <template>
-<div class="imageContainer">
-    <img class="image" :src="imageUrl" :alt="imageAlt" :title="title"/>
+  <div class="imageContainer">
+    <img class="image" :src="imgsrc" :alt="imgalt" :title="title" />
     <div class="imageTitle">{{ title }}</div>
     <div class="imageText">{{ text }}</div>
-</div>
+  </div>
 </template>
 <script>
 export default {
@@ -12,11 +12,11 @@ export default {
       default: 0,
       type: Number,
     },
-    imageUrl: {
+    imgsrc: {
       default: "",
       type: String,
     },
-    imageAlt: {
+    imgalt: {
       default: "",
       type: String,
     },
@@ -27,26 +27,32 @@ export default {
     text: {
       default: "",
       type: String,
-    }
-  }
-}
+    },
+  },
+};
 </script>
 <style scoped>
-.imageTitle {font-weight: bold; padding-block: 10px; text-align: center;}
-.imageText {font-weight: b; text-align: center;}
+.imageTitle {
+  font-weight: bold;
+  padding-block: 10px;
+  text-align: center;
+}
+.imageText {
+  font-weight: b;
+  text-align: center;
+}
 .imageContainer {
   margin: 5px;
   border: 1px solid #ccc;
-  float: middle;
-  width: 40%;
+  width: 20%;
   padding: 20px;
+  display: inline-block;
 }
 .imageContainer {
   border: 1px solid #777;
 }
 .image {
-  width: 100%; 
+  width: 100%;
   height: auto;
 }
-
 </style>
