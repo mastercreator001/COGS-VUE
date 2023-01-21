@@ -9,8 +9,8 @@ export const usequickMemoriesgalleryStore = defineStore('quickMemoriesgallery', 
             text: " Name The Dog, and the owner ?",
             imgsrc: "/quickMemoriesgallery/Lumii_20210523_081022127.jpg",
             imgalt: "2 students with dog",
-          },
           {
+
             id: 2,
             title: "Trips out",
             text: "Trips with students",

@@ -1,10 +1,10 @@
 const state = () => ({
   posts: [
     {
-      id: 1,
+      id: Posts/1,
       title: "Home",
-      text: "A Familliar view",
-      imgsrc: "/PopularPosts/20200228_205500.jpg",
+      text: "A Familliar view twist",
+      imgsrc: "stores/posts/PopularPosts/20200228_205500.jpg",
       imgalt: "view of the school",
     },
     {
