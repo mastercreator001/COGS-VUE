@@ -16,7 +16,7 @@
     </ul>
   </div>
 </template>
-
+:thumbnailsrc="thumbnail.thumbnailsrc"
 <script>
 import ImageGalleryTemplate from "../templates/ImageGalleryTemplate.vue";
 export default {

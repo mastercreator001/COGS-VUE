@@ -3,9 +3,11 @@
 import { createStore } from "vuex";
 import postsStore from "./modules/postsStore";
 import imagesStore from "./modules/imagesStore";
+import mainFeatureStore from "./modules/mainFeatureStore";
 export default createStore({
   modules: {
     postsStore,
     imagesStore,
+    mainFeatureStore,
   },
 });

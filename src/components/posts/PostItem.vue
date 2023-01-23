@@ -3,6 +3,7 @@
     <div class="cofe-container cofe-padding cofe-black">
       {{ post.title }}
     </div>
+    <img :src="post.imgsrc" :alt="post.imgalt" :title="post.imgalt" />
     <div class="cofe-container cofe-padding cofe-white">
       {{ post.text }}
     </div>
@@ -17,7 +18,6 @@ export default {
     };
   },
   mounted() {
-    console.log(this.$route.params.id);
     this.posts = this.$store.state["postsStore"].posts;
     var filterPost = this.posts.filter(
       (post) => post.id.toString() === this.$route.params.id
@@ -25,7 +25,7 @@ export default {
     if (filterPost.length > 0) {
       this.post = filterPost[0];
     }
-    console.log(filterPost);
+      console.log(this.post)
   },
 };
 </script>

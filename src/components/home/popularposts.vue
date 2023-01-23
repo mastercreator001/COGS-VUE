@@ -10,7 +10,7 @@
         :id="post.id"
         :title="post.title"
         :text="post.text"
-        :imgsrc="post.imgsrc"
+        :imgsrc="post.thumbnailsrc"
         :imgalt="post.imgalt"
       />
     </ul>

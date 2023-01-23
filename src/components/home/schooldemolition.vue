@@ -10,8 +10,8 @@
           :id="picture.id"
           :title="picture.title"
           :text="picture.text"
-          :imageUrl="picture.imageUrl"
-          :imageAlt="picture.imageAlt"
+          :imgsrc="picture.imageUrl"
+          :imgalt="picture.imageAlt"
         />
     </div>
     <br/>

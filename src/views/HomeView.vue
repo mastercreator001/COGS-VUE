@@ -1,19 +1,16 @@
 <script setup>
 import TopSection from "../components/home/TopSection.vue";
-import PictureFeature from "../components/home/PictureFeature.vue";
 import HeadTeachers from "../components/home/HeadTeachers.vue";
-import PopularPosts from "../components/home/popularPosts.vue";
+import popularPosts from "../components/home/popularPosts.vue";
 import quickMemoriesgallery from "../components/home/quickMemoriesgallery.vue";
 import QuickAccess from "../components/common/QuickAccess.vue";
-import schooldemolition2 from "../components/home/schooldemolition.vue";
-import visitsaway from "../components/home/visitsaway.vue";
+import schoolDemolition from "../components/home/schoolDemolition.vue";
 import followme from "../components/common/followme/contact.vue";
 import subscribe from "../components/common/subscribe.vue";
 import emaillink from "../components/common/emaillink.vue";
 import siteFooter from "../components/common/siteFooter.vue";
-import teachers from "../components/home/teachers.vue";
-import secondsVue from "../components/home/seconds.vue";
 import cookingClass from "../components/home/cookingClass.vue";
+import mainFeatures from "../components/home/mainFeatures.vue";
 </script>
 
 <template>
@@ -21,19 +18,17 @@ import cookingClass from "../components/home/cookingClass.vue";
     <TopSection />
   </main>
   <div class="content">
-    <PictureFeature />
+    <mainFeatures />
     <div class="side">
       <HeadTeachers />
-      <PopularPosts />
+      <popularPosts />
     </div>
     <quickMemoriesgallery />
     <cookingClass />
-    <teachers />
-    <visitsaway />
   </div>
   <div class="bottom">
     <QuickAccess />
-    <schooldemolition2 />
+    <schoolDemolition />
     <br />
     <followme />
     <br />
