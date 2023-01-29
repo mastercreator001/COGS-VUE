@@ -4,7 +4,7 @@
       class="cofe-logo"
       src="/20200218_195526.jpg"
       alt="school logo"
-      width="100"
+      width="90"
       style="border: solid black 2px"
     />
     <h1 class="cofe-xxxlarge"><b>Church Of England</b></h1>

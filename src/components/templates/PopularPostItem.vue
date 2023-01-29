@@ -5,7 +5,7 @@
       :title="imgalt"
       :alt="imgalt"
       class="cofe-left cofe-margin-right"
-      style="width: 50px"
+      style="width: 90px"
     />
     <span class="cofe-large">
       <strong>{{ title }}</strong>
@@ -15,7 +15,6 @@
   </li>
 </template>
 <script>
-import { RouterView, useRoute } from 'vue-router';
 export default {
   props: {
     id: {
@@ -40,10 +39,10 @@ export default {
     },
   },
   methods: {
-    itemClicked () {
-      console.log(this.title)
-      this.$router.push('/Posts/' + this.id)
-    }
-  }
+    itemClicked() {
+      console.log(this.title);
+      this.$router.push("/Posts/" + this.id);
+    },
+  },
 };
 </script>

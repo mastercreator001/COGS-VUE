@@ -5,22 +5,22 @@ const state = () => ({
       title: "Anyone Remember",
       text: " Name The Dog, and the owner ?",
       imgsrc: "/quickMemoriesgallery/Lumii_20210523_081022127.jpg",
-      thumbnailsrc:"../quick/thumbLumii_20210523_081022127.jpg",
+      thumbnailsrc: "/quick/thumbLumii_20210523_081022127.jpg",
       imgalt: "2 students with dog",
     },
     {
       id: 2,
       title: "Trips out",
       text: "Trips with students",
-      imgsrc: "../quickMemoriesgallery/Lumii_20210523_081701844.jpg",
-      thumbnailsrc:"/quickMemoriesgallery/thumbnails/thumbLumii_20210523_081701844.jpg",
+      imgsrc: "/quickMemoriesgallery/Lumii_20210523_081701844.jpg",
+      thumbnailsrc: "/quickMemoriesgallery/thumbnails/thumbLumii_20210523_081701844.jpg",
       imgalt: "school trip out",
     },
     {
       id: 3,
       title: "Pictures",
       text: "Miss Forers class",
-      imgsrc: "dist/quickMemoriesgallery/Lumii_20210523_082432053.jpg",
+      imgsrc: "/quickMemoriesgallery/Lumii_20210523_082432053.jpg",
       thumbnailsrc:"/quickMemoriesgallery/thumbnails/thumbLumii_20210523_082432053.jpg",
       imgalt: "take2 cardwell pictures of students",
     },
@@ -33,9 +33,9 @@ const state = () => ({
       thumbnailsrc:"/quickMemoriesgallery/thumbnails/thumb20200509_092615m.jpg",
       imgalt: "Image",
     },
-      
-      {  
-        id: 6,
+
+    {
+      id: 6,
       title: "School Outing Anyone",
       text: "A Well Prepared Bunch",
       imgsrc: "/quickMemoriesgallery/20200509_092922m.jpg",
@@ -43,7 +43,7 @@ const state = () => ({
       imgalt: "school trip out,but where",
     },
 
-    {  
+    {
       id: 7,
       title: "A Pond At School ?",
       text: "Who ever new we had a pond at school, plenty I'm sure",
@@ -52,21 +52,22 @@ const state = () => ({
       imgalt: "School pond",
     },
 
-    {  
+    {
       id: 8,
       title: "The team to beat",
       text: "Stunning colour fablous play",
       imgsrc: "/quickMemoriesgallery/20200509_093242m.jpg",
-      thumbnailsrc:"/quickMemoriesgallery/thumbnails/thumb20200509_093242m.jpg" ,
+      thumbnailsrc:
+        "/quickMemoriesgallery/thumbnails/thumb20200509_093242m.jpg",
       imgalt: "Image",
     },
 
-    {  
+    {
       id: 9,
       title: "The three muskateers ?",
       text: "The Mystery remains, Who? Where? and When?",
       imgsrc: "/quickMemoriesgallery/20200509_093140m.jpg",
-      thumbnailsrc: "/quickMemoriesgallery/thumbnails/thumb20200509_093140m.jpg",
+      thumbnailsrc:"/quickMemoriesgallery/thumbnails/thumb20200509_093140m.jpg",
       imgalt: "three students",
     },
   ],
@@ -74,11 +75,13 @@ const state = () => ({
 
 const getters = {
   getImageById: (state) => (id) => {
-    return state.quickMemoriesgallery.find(quickMemoriesgallery => quickMemoriesgallery.id === id)
+    return state.quickMemoriesgallery.find(
+      (quickMemoriesgallery) => quickMemoriesgallery.id === id
+    );
   },
   getAllImages: (state) => {
-    return state.quickMemoriesgallery
-  }
+    return state.quickMemoriesgallery;
+  },
 };
 
 export default {
@@ -86,4 +89,3 @@ export default {
   state,
   getters,
 };
-

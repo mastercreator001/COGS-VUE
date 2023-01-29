@@ -42,7 +42,7 @@ export default {
   text-align: center;
 }
 .imageContainer {
-  margin: 5px;
+  margin: 25px;
   border: 1px solid #ccc;
   width: 20%;
   padding: 20px;

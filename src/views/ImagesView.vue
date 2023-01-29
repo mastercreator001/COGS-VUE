@@ -1,8 +1,7 @@
 <template>
-  <hr />
-  <div class="cofe-container">
+  <div class="cofe-container" style="margin-top: 10px">
     <div class="cofe-padding cofe-black">
-      <h4>Quick Memories Gallery</h4>
+      <h4>Images</h4>
     </div>
     <ul class="cofe-ul cofe-hoverable cofe-white">
       <ImageGalleryTemplate
@@ -17,9 +16,8 @@
     </ul>
   </div>
 </template>
-:thumbnailsrc="thumbnail.thumbnailsrc"
 <script>
-import ImageGalleryTemplate from "../templates/ImageGalleryTemplate.vue";
+import ImageGalleryTemplate from "../components/templates/ImageGalleryTemplate.vue";
 export default {
   components: {
     ImageGalleryTemplate,
@@ -30,7 +28,6 @@ export default {
     };
   },
   mounted() {
-    console.log(this.$store.state["imagesStore"].images);
     this.images = this.$store.state["imagesStore"].images;
   },
   methods: {
@@ -40,3 +37,12 @@ export default {
   },
 };
 </script>
+<style>
+@media (min-width: 1024px) {
+  .images {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+</style>

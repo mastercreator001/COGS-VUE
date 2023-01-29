@@ -27,6 +27,16 @@ const router = createRouter({
       name: "postitems",
       component: () => import("../components/posts/PostItem.vue"),
     },
+    {
+      path: "/images",
+      name: "images",
+      component: () => import("../views/ImagesView.vue"),
+    },
+    {
+      path: "/images/:id",
+      name: "imageitems",
+      component: () => import("../components/common/ImageItem.vue"),
+    },
   ],
 });
 

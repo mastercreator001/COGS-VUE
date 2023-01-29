@@ -25,7 +25,6 @@ export default {
     if (filterPost.length > 0) {
       this.post = filterPost[0];
     }
-      console.log(this.post)
   },
 };
 </script>
